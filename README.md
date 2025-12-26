@@ -12,7 +12,7 @@ The RTL is implemented and simulated in **Vivado (XSim)**, and the verification 
 - **Design File:** `FIFO.sv`
 - **Interface:** `fifo_if` (connects DUT and testbench)
 - **Functionality:**  
-  The FIFO temporarily stores incoming data and releases it in the same order it was received (first-in, first-out).  
+  The FIFO stores incoming data and outputs it in a first-in-first-out (FIFO) manner, ensuring data ordering integrity. (first-in, first-out).  
   The design supports:
   - Write enable (`wr_en`)
   - Read enable (`rd_en`)
